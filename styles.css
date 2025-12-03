@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+footer {
+  margin-block: 4em;
+  background-color: hsl(201, 11%, 66%, 0.1);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: hsl(210, 10%, 33%);
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.333em;
+}
+
+h2 {
+  font-size: 1.111em;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1em;
+}
+
+header {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/bg-header-mobile.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+header img {
+  width: 5.556em;
+  height: 5.556em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  padding-inline: 1em;
+}
+
+p {
+  font-size: 0.722em;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn-ios,
+.btn-mac {
+  width: 100%;
+  padding: 1em;
+  border: none;
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.btn-ios {
+  margin-top: 2.5em;
+  background-color: hsl(171, 66%, 44%);
+}
+
+.btn-mac {
+  background-color: hsl(233, 100%, 69%);
+  margin-top: 1.5em;
+}
+
+.btn-ios:hover,
+.btn-mac:hover {
+  cursor: pointer;
+}
+
+.contenedor {
+  padding: 2em;
+}
+
+.contenedor ul li {
+  margin-block: 1.5em;
+  font-size: 0.778em;
+}
+
+.contenedor ul li a {
+  color: hsl(210, 10%, 33%);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.contenedor ul li a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.contenedor img {
+  width: 2.778em;
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-instagram {
+  color: hsl(210, 10%, 33%);
+  margin-block: 1em;
+  margin-inline: 0.5em;
+}
+
+.icon-facebook:hover,
+.icon-twitter:hover,
+.icon-instagram:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.snippets,
+.clipboard {
+  margin-top: 6em;
+}
+
+.snippets p,
+.clipboard p {
+  margin-bottom: 3.5em;
+}
+
+.workflow {
+  margin-block: 4em;
+}
+
+.workflow > .workflow-list {
+  margin-block: 4em;
+}
+
+.workflow .workflow-list img {
+  width: 1.667em;
+}
+
+.workflow-list li {
+  margin-block: 2.5em;
+}
+
+.logos li img {
+  width: 100px;
+  margin-block: 1em;
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "BaiJamjuree";
+    src: url("fonts/BaiJamjuree-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "BaiJamjuree";
+    src: url("fonts/BaiJamjuree-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
